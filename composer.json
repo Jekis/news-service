@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-0": {"Jekis\\NewsService\\": "src/"}
+    },
+    "require": {
+        "silex/silex": "~1.2",
+        "Jekis/service-builder": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Jekis/service-builder.git"
+        }
+    ]
+}
